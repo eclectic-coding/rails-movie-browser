@@ -10,7 +10,7 @@
     "@rails/actioncable": "6.1.7",
     "@rails/activestorage": "6.1.7",
     "@rails/ujs": "6.1.7",
-    "@rails/webpacker": "4.3.0",
+    "@rails/webpacker": "5.4.3",
     "tailwindcss": "1.9.6",
     "turbolinks": "5.2.0"
   },
