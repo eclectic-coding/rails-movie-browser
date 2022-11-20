@@ -11,7 +11,7 @@
     "@rails/activestorage": "6.1.7",
     "@rails/ujs": "6.1.7",
     "@rails/webpacker": "4.3.0",
-    "tailwindcss": "1.9.6",
+    "tailwindcss": "3.2.4",
     "turbolinks": "5.2.0"
   },
   "version": "0.1.0",
