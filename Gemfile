@@ -1,16 +1,17 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.7.1"
+ruby "2.7.6"
+
 gem "bootsnap", ">= 1.4.2", require: false
 gem "devise"
 gem "jbuilder", "~> 2.7"
 gem "omniauth"
-gem "omniauth-github"
-gem "omniauth-google"
-gem "omniauth-twitter"
+gem "omniauth-github", git: 'git@github.com:omniauth/omniauth-github.git'
+# gem "omniauth-google"
+# gem "omniauth-twitter"
 gem "pg", "1.2.2"
-gem "puma", "~> 4.3.1"
+gem "puma", "~> 5", "< 6"
 gem "rails", "~> 6.0.3"
 gem "rest-client"
 gem "sass-rails", ">= 6"
@@ -54,3 +55,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+
+gem "bundle-audit", "~> 0.1.0"
